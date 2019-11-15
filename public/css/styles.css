@@ -1,0 +1,179 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #EEF2EA;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;  
+	margin: 0 auto;
+	max-width: 800px;
+	min-height: 100vh;
+}
+
+.main-container {
+	background: #fff;    
+	padding: 0 50px;
+}
+
+.main-content {
+	flex-grow: 1;
+	padding: 20px 50px;
+}
+
+.bgr-color {
+	background: #3A4559;
+}
+
+.header-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1 {
+	font-size: 24px;
+	color: #3A4559;
+	padding: 10px 0;
+}
+
+header h1 {
+	font-size: 18px;
+	color: #fff;
+}
+
+
+footer p {
+	color: #fff;
+	padding: 50px 0;
+}
+
+p {
+	color: #3A4559;
+}
+
+img {
+	width: 300px;
+}
+
+header a {
+	padding-left: 20px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+header a:hover {
+	color:#F69795;
+}
+
+.cards-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+	flex-wrap: wrap;
+}
+
+.card {
+	width: 100%;
+	padding: 25px 25px 45px;
+	background: #fff;
+	box-shadow: 0px 10px 29px -6px #ddd;
+	border-radius: 15px;
+}
+
+.card-weather {
+	margin-top: 20px;
+	background: #3A4559;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.search-field {
+	width: 100%;
+	border: 1px solid #3A4559;
+	border-radius: 5px;
+	padding: 8px;
+	margin: 20px 0;
+}
+
+.btn {
+	width: 100%;
+	color: #fff;
+	background: #3A4559;
+	border: 1px solid #3A4559;
+	border-radius: 5px;
+	padding: 8px;
+	margin: 0;
+	font-size: 16px;
+}
+
+.btn:hover {
+	background: #fff;
+	color: #3A4559;
+}
+
+label {
+	font-size: 18px;
+	font-weight: 700;
+	color: #3A4559;
+}
+
+.color-text {
+	color: #BECAD8;
+}
+
+.location,
+.error {
+	width: 100%;
+}
+
+.location,
+.temperature,
+.info {
+	color: #fff;
+}
+
+.location {
+	font-size: 32px;
+	color: #BECAD8;
+}
+
+.temperature {
+	font-size: 48px;
+	font-weight: 400;
+	width: 20%;
+}
+
+.weather-info {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.info {
+	width: 75%;
+	display: block;
+	position: relative;
+}
+
+.info::before {
+	position: absolute;
+	content: '';
+	display: block;
+	width: 2px;
+	height: 35px;
+	background: #fff;
+	left: -15px;
+	top: -10px;
+}
+
+.error {
+	color: #F56D6A;
+	font-size: 21px;
+}
