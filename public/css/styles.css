@@ -177,3 +177,60 @@ label {
 	color: #F56D6A;
 	font-size: 21px;
 }
+
+@media screen and (max-width: 600px) {
+	.main-container {
+		padding: 0 15px;
+	}
+	
+	.main-content {
+		padding: 20px 15px;
+	}
+
+	h1 {
+		font-size: 18px;
+	}
+	
+	header h1 {
+		font-size: 14px;
+	}
+	
+	footer p {
+		padding: 25px 0;
+	}
+	
+	header a {
+		padding-left: 10px;
+		font-size: 16px;
+	}
+
+	.cards-container {
+		padding: 10px 0;
+	}
+	
+	.card {
+		padding: 25px 15px;
+	}
+
+	.location {
+		font-size: 21px;
+	}
+	
+	.temperature {
+		font-size: 24px;
+		padding: 5px 0;
+		width: 32%;
+	}
+
+	.info {
+		width: 65%;
+	}
+	
+	.info::before {
+		top: 0;
+	}
+	
+	.error {
+		font-size: 18px;
+	}
+}
